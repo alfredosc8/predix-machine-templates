@@ -1,0 +1,18 @@
+[submodule "predix-machine-template-adapter"]
+	path = predix-machine-template-adapter
+	url = https://github.com/PredixDev/predix-machine-template-adapter.git
+[submodule "predix-machine-template-adapter-edison"]
+	path = predix-machine-template-adapter-edison
+	url = https://github.com/PredixDev/predix-machine-template-adapter-edison.git
+[submodule "predix-machine-template-adapter-pi"]
+	path = predix-machine-template-adapter-pi
+	url = https://github.com/PredixDev/predix-machine-template-adapter-pi.git
+[submodule "predix-machine-template-adapter-intel"]
+	path = predix-machine-template-adapter-intel
+	url = https://github.com/PredixDev/predix-machine-template-adapter-intel.git
+[submodule "predix-machine-template-adapter-simulator"]
+	path = predix-machine-template-adapter-simulator
+	url = https://github.com/PredixDev/predix-machine-template-adapter-simulator.git
+[submodule "machine-adapter-pi-gpio"]
+        path = machine-adapter-pi-gpio
+	url = https://github.com/PredixDev/machine-adapter-pi-gpio.git
