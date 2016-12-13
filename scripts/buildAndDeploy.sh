@@ -67,9 +67,9 @@ fi
 
 #Run the quickstart
 if [[ $SKIP_SERVICES -eq 0 ]]; then
-__echo_run ./quickstart.sh -cs -mc -if $arguments
+__echo_run ./quickstart.sh -wd n -cs -mc -if $arguments
 else
-__echo_run ./quickstart.sh -mc -p $arguments
+__echo_run ./quickstart.sh -wd n -mc -p $arguments
 fi
 
 cd "$CURRENT_DIR"
