@@ -1,12 +1,12 @@
 # predixmachine-starter bundles
-##This repository holds the various machine starter bundles.
+## This repository holds the various machine starter bundles.
 
 Each starter bundle has quickstart.sh script that sets up Predix services in the cloud, builds the bundle and injects it into the pre-configured Predix Machine tar ball so that you can quickly get started sending data from Predix Machine to the cloud and visualize the data in a UI.
 
 Follow the tutorials for [Edge Starters](http://predix.io/resources/tutorials).  
   - Scroll down, look for Edge Starters and choose the device you are interested in.
 
-##Customize a predix-machine-template-adapter 
+## Customize a predix-machine-template-adapter 
 
 If you don't see an Edge Starter for a board you are interested in you can easily create one by following the example in the repo [predix-machine-template-adapter](https://github.com/PredixDev/predix-machine-template-adapter.git).
 
