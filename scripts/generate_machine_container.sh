@@ -40,7 +40,7 @@ SKIP_SETUP=false
 #ASSET_MODEL="-amrmd predix-ui-seed/server/sample-data/predix-asset/asset-model-metadata.json predix-ui-seed/server/sample-data/predix-asset/asset-model.json"
 SCRIPT="-script build-basic-app.sh -script-readargs build-basic-app-readargs.sh"
 QUICKSTART_ARGS="-cm $SCRIPT"
-IZON_SH="https://github.build.ge.com/raw/adoption/izon/1.0.0/izon.sh"
+IZON_SH="https://raw.githubusercontent.com/PredixDev/izon/1.0.0/izon.sh"
 VERSION_JSON="version.json"
 PREDIX_SCRIPTS=predix-scripts
 VERSION_JSON="version.json"
@@ -49,7 +49,7 @@ TOOLS="Maven"
 TOOLS_SWITCHES="--maven"
 
 local_read_args $@
-VERSION_JSON_URL=https://github.build.ge.com/raw/adoption/predix-machine-templates/$BRANCH/version.json
+VERSION_JSON_URL=https://raw.githubusercontent.com/PredixDev/predix-machine-templates/$BRANCH/version.json
 
 
 function check_internet() {
