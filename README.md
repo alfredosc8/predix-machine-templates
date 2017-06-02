@@ -10,6 +10,8 @@ Follow the tutorials for [Edge Starters](http://predix.io/resources/tutorials).
 
 If you don't see an Edge Starter for a board you are interested in you can easily create one by following the example in the repo [predix-machine-template-adapter](https://github.com/PredixDev/predix-machine-template-adapter.git).
 
+Note: some underlying scripts have changed and this process has not been reviewed yet.  It likely will not work.  The developer is on leave and when they return this will be reviewed.  We apologize for the inconvenience.
+
 1. git clone https://github.com/PredixDev/predix-machine-template-adapter.git
 2. In the template project, review the **quickstart.sh** script.  Notice the call to the  [predix-scripts](https://github.com/PredixDev/predix-scripts.git)/quickstart.sh script that handles much of the heavy lifting for you.
   - quickstart.sh -smf
